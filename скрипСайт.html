@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .div{
+      display: flex;
+      flex-wrap: wrap;
+      gap:20px;
+      margin-bottom: 20px;
+    }
+    .greenQ{
+      width: 200px;
+      height: 200px;
+      background-color: blueviolet;
+      
+    }
+    .li{
+      display: none;
+    }
+    .kek{
+      background-color: green;
+    }
+    .vidno{
+      display: block;
+    }
+    .input{
+
+    }
+    .replayBtn{
+      border: 1px solid slateblue;
+      background-color: aliceblue;
+      color: cornflowerblue;
+      width: 30%;
+      height: 40px;
+    } 
+  </style>
+</head>
+<body >
+   <!-- <input  type="text" class="input"> 
+<button onclick="proverka()">delitel</button> -->
+<!-- <ul>
+  <li class="li">lol</li>
+  <li class="li">12</li>
+  <li class="li">3</li>
+  <li class="li">kek</li>
+  <li class="li">5</li>
+</ul> onfocus="toglinput()" onblur="toglinput()"  -->
+
+<div class="div" onclick="change(event)">
+  <div class="greenQ"></div>
+  <div class="greenQ"></div>
+  <div class="greenQ"></div>
+  <div class="greenQ"></div>
+  <div class="greenQ"></div>
+  <div class="greenQ"></div>
+  <div class="greenQ"></div>
+  <div class="greenQ"></div>
+  <div class="greenQ"></div>
+  <div class="greenQ"></div>
+  <div class="greenQ"></div>
+  <div class="greenQ"></div>
+</div> 
+<button class="replayBtn" onclick="replay()">replay</button>
+<button class="replayBtn" onclick="create()">create</button>
+  <script src="./js/script.js"></script>
+</body>
+</html>
